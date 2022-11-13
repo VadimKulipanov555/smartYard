@@ -21,9 +21,6 @@ def form():  # put application's code here
 @app.route('/login', methods=['POST', 'GET'])
 def login():
 
-    error = {}
-    not_error = {}
-
     if request.method == 'GET':
         return "Login via the login Form"
 
